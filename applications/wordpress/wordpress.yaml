@@ -44,7 +44,7 @@ source:
   os_type: linux
   image:
     ami:
-      - id: ami-0133eefcff6f91a28
+      - id: ami-03ef731cc103c9f09
         region: eu-west-1
         username: ubuntu
     azure_image:
