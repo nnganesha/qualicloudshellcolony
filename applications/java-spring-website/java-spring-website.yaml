@@ -31,6 +31,12 @@ infrastructure:
         vm_size: Basic_A2
 
   connectivity:
+    virtual_network:
+      id: vpc-0414eefa20c43882b
+      subnets:
+        application:
+          - subnet-0c3d664bd4cec976c
+      
     external:
       - port_info:
           # Port 8080 will be opened externally to receive web requests
