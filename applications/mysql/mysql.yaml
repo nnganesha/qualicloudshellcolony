@@ -23,6 +23,12 @@ infrastructure:
       azure:
         vm_size: Basic_A2
   connectivity:
+    virtual_network:
+      id: vpc-0414eefa20c43882b
+      subnets:
+        application:
+          - subnet-0c3d664bd4cec976c
+  
     # Port 3306 will be opened internally to receive database requests
     internal:
       - port_info:
