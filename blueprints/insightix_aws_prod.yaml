@@ -19,10 +19,10 @@ applications:
   - sqldb: # SQL server DB
 
 infrastructure:
-   green_host: insightixwip.wiprocms.com
-   connectivity:
-     virtual_network:
-       id: vpc-0414eefa20c43882b
-       subnets:
-        application:
-           - subnet-0c3d664bd4cec976c
+  green_host: insightixwip.wiprocms.com
+  connectivity:
+    virtual_network:
+      id: vpc-0414eefa20c43882b
+      subnets:
+        application:
+          - subnet-0c3d664bd4cec976c
