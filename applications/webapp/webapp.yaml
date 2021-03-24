@@ -31,4 +31,7 @@ configuration:
     script: webapp.sh
   # The command is the actual command used to start
   # the application process
+  healthcheck:
+    script: healthcheck.sh
+    timeout: 30
          
