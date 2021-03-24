@@ -1,1 +1,37 @@
+  
 #
+#   This application file defines how to deploy and configure
+#   insightix website.
+#   
+#
+---
+spec_version: 1
+kind: application
+
+infrastructure:
+  # Specify the compute requirement for this app
+  # if we don't specify anything the default will be used
+  compute:
+    spec:
+      aws:
+        instance_type: t2.medium
+  connectivity:
+    internal:
+      - port_info:
+          port: 1232
+source:
+   os_type: linux
+   image:
+     ami:
+       - id: ami-0841d91ff7a336ced
+         region: us-east-2
+configuration:
+  # The initialization script is intended to install
+  # app prerequisite and initialize the OS
+  initialization:
+    script: dotnetapp.sh
+  # The command is the actual command used to start
+  # the application process
+  healthcheck:
+    script: healthcheck.sh
+    timeout: 30
