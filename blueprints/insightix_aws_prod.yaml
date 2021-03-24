@@ -19,7 +19,7 @@ applications:
   - sqldb: # SQL server DB
 
 infrastructure:
-  green_host: green.lv-colony-prod.com
+  green_host: i-05fcb8a67115e3dcd
   connectivity:
     virtual_network:
       id: vpc-0414eefa20c43882b
