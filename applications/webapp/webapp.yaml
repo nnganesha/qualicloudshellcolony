@@ -18,3 +18,10 @@ infrastructure:
     internal:
       - port_info:
           port: 1232
+source:
+   os_type: linux
+   image:
+     ami:
+       - id: ami-0841d91ff7a336ced
+         region: us-east-2
+         
