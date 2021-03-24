@@ -26,3 +26,5 @@ infrastructure:
       subnets:
         application:
           - subnet-0c3d664bd4cec976c
+        management:
+          - subnet-0c3d664bd4cec976c
