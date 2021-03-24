@@ -18,7 +18,7 @@ infrastructure:
   connectivity:
     internal:
       - port_info:
-          port: 1232
+          port: 1233
 source:
    os_type: linux
    image:
