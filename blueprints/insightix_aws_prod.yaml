@@ -1,0 +1,21 @@
+# insightix
+
+spec_version: 1 
+kind: blueprint
+environmentType: sandbox
+
+metadata:
+  description: >
+    Insightix Application
+clouds:
+  - AWSGanesh: us-east-2
+
+# These are the applications that will be deployed in this blueprint
+applications:
+  - webapp:  # One instance of webapp angular
+  
+  - dotnetapp: # One instance of dotnet app
+  
+  - sqldb: # SQL server DB
+  
+  
