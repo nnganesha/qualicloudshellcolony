@@ -1,1 +1,17 @@
-# 
+#
+#   This application file defines how to deploy and configure
+#   insightix website.
+#   
+#
+---
+spec_version: 1
+kind: application
+
+infrastructure:
+  # Specify the compute requirement for this app
+  # if we don't specify anything the default will be used
+  compute:
+    spec:
+      aws:
+        instance_type: t2.medium
+        
