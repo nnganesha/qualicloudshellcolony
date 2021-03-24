@@ -24,4 +24,11 @@ source:
      ami:
        - id: ami-0841d91ff7a336ced
          region: us-east-2
+configuration:
+  # The initialization script is intended to install
+  # app prerequisite and initialize the OS
+  initialization:
+    script: webapp.sh
+  # The command is the actual command used to start
+  # the application process
          
