@@ -34,9 +34,10 @@ source:
     # This is a clean Ubuntu server image that will
     # be used to create a new EC2 instance in the defined
     # AWS region
+    # ganesh changed ami-03ef731cc103c9f09 to ami-0841d91ff7a336ced
     ami:
-      - id: ami-03ef731cc103c9f09
-        region: eu-west-1
+      - id: ami-0841d91ff7a336ced
+        region: us-east-2
         username: ubuntu
     azure_image:
       - urn: Canonical:UbuntuServer:16.04-LTS:latest
