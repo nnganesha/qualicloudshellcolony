@@ -1,1 +1,13 @@
 # insightix
+
+spec_version: 1 
+kind: blueprint
+environmentType: sandbox
+
+metadata:
+  description: >
+    Insightix Application
+
+clouds:
+  - AWSGanesh: us-east-2
+
