@@ -2,7 +2,7 @@
 
 sudo apt update -y
 
-sudo apt install tomcat9
+sudo apt-get install -y tomcat9
 
 exit 0
 
