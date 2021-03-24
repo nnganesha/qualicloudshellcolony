@@ -14,4 +14,7 @@ infrastructure:
     spec:
       aws:
         instance_type: t2.medium
-        
+  connectivity:
+    internal:
+      - port_info:
+          port: 1232
